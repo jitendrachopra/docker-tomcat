@@ -1,6 +1,6 @@
 #tomcat 8 image 
 FROM tomcat:8.0.15-jre8
-MAINTAINER Jitendra Chopra <jitendra.chopra@csaa.com>
+MAINTAINER Jitendra Chopra <chopra.jitendra@gmail.com>
 ADD conf/tomcat-users.xml /usr/local/tomcat/conf/
 ADD lib/log4j-1.2.17.jar /usr/local/tomcat/lib/
 ADD web.xml /usr/local/tomcat/webapps/manager/WEB-INF/
